@@ -1,0 +1,72 @@
+@import url(global.css);
+
+body {
+    /*background: #002233;*/
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.card {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.20);
+}
+
+.about_me {
+    /*background: #3c31dd;*/
+}
+
+.projects {
+    /*background: #dd3f31;*/
+    padding: 50px;
+    
+}
+
+.resume {
+    /*background: #ff0066; */
+}
+
+.dark {
+    background: #0f0f10;
+}
+
+.projects h3, .resume h3 {
+    color: #ffffff;
+}
+
+.blue-card {
+    background: #eaecff;
+    color: #424242;
+    border-radius: 20px;
+    border: inherit;
+}
+
+.rounded-end {
+    border-radius: 20px!important;
+}
+
+.custom-shape-divider-bottom-1630443749 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1630443749 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 25px;
+}
+
+.custom-shape-divider-bottom-1630443749 .shape-fill {
+    fill: #0066FF;
+}
+
