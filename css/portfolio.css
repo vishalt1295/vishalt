@@ -232,37 +232,16 @@ section {
     bottom: 0;
   }*/
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
- .card-break {
-   margin-left: unset!important;
- }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .card-break {
-    margin-left: unset!important;
+  @media screen and (min-width: 960px) {
+    .card-style {
+      margin-left: 1.5rem!important;
+    }
   }
-}
 
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .card-break {
-    margin-left: 1.5rem!important;
-    margin-top: unset!important;
+  .card-style {
+    border-radius: 20px;
   }
-}
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  .card-break {
-    margin-left: 1.5rem!important;
-    margin-top: unset;
+  .rounded-start {
+    border-radius: 20px!important;
   }
-}
-
-.card-break {
-  margin-left: 1.5rem!important;
-}
