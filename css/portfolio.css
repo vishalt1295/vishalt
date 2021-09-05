@@ -233,13 +233,17 @@ section {
   }*/
 
   @media screen and (min-width: 960px) {
-    .card-style {
-      margin-left: 1.5rem!important;
+    .card-breakpoint {
+      margin-left: 1rem!important;
+     
     }
   }
 
+ 
+
   .card-style {
     border-radius: 20px;
+
   }
 
   .rounded-start {
