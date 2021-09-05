@@ -248,14 +248,18 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #121212;
+       /* background: #121212; */
+        background: #212529!important;
     }
     .card {
         background: #323232;
         color: #ffffff;
     }
+
   }
   
+
+
   @media (prefers-color-scheme: light) {
    
   }
