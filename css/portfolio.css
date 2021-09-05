@@ -12,6 +12,10 @@ section {
     padding: 100px 20vw;
 }
 
+
+
+
+
 .card {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.20);
 }
@@ -23,11 +27,13 @@ section {
 .projects {
     /*background: #dd3f31;*/
     padding: 50px;
+   
     
 }
 
 .resume {
     /*background: #ff0066; */
+    padding: 50px!important;
 }
 
 .dark {
@@ -70,3 +76,160 @@ section {
     fill: #0066FF;
 }
 
+
+
+
+
+/* Resume */
+
+.profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    width: 40%;
+    color: #4a4e51;
+  }
+  .profile .list-content {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: 300;
+  }
+  .profile .contact-presentation {
+    text-align: left;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  @media (max-width: 1200px) {
+    .profile .contact-presentation {
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+  }
+  @media (max-width: 850px) {
+    .profile .contact-presentation {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  .experience {
+    background: #3d3e42;
+    position: relative;
+    color: #9099a0;
+    font-weight: 300;
+    min-height: 100%;
+    min-height: 100vh;
+  }
+  @media (max-width: 850px) {
+    .experience {
+      width: 100%;
+    }
+  }
+  .experience h3.project-title {
+    color: #66cc99;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  .experience .company-wrapper {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 450px) {
+    .experience .company-wrapper {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .experience .job-wrapper {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 450px) {
+    .experience .job-wrapper {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  .experience .project-title {
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .section-padding {
+    padding: 60px 60px 40px 40px;
+  }
+  @media (max-width: 850px) {
+    .section-padding {
+      padding: 80px 15% 40px 10%;
+    }
+  }
+  @media (max-width: 450px) {
+    .section-padding {
+      padding: 40px 10% 20px 5%;
+    }
+  }
+  
+  .section-wrapper {
+    /*width: 50%;
+    float: left; */
+    text-align: left;
+    color: #9099a0;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 450px) {
+    .section-wrapper {
+      width: 100%;
+    }
+  }
+  .section-wrapper:nth-child(3) {
+    padding-right: 8%;
+  }
+  .section-wrapper h3.section-title {
+    color: #66cc99;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  .section-wrapper .skill {
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+.resume-columns {
+  columns: 3;
+}
+
+.resume-title {
+  margin-bottom: 20px;
+}
+
+ /* .section-wrapper .skill-percentage::after {
+    content: "";
+    width: 100%;
+    height: 6px;
+    background: #4a4e51;
+    display: block;
+    margin-top: 3px;
+  } */
+  /*.section-wrapper .skill-percentage::before {
+    content: "";
+    height: 6px;
+    background: #66cc99;
+    position: absolute;
+    margin-top: 3px;
+    bottom: 0;
+  }*/
