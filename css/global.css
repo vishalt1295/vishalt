@@ -248,20 +248,25 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-       /* background: #121212; */
-        background: #212529!important;
+       background: #22232b;
+        /* background: #212529!important;*/
     }
+
+    .bg-dark {
+        background: #22232b;
+    }
+
     .card {
-        background: #323232;
-        color: #ffffff;
+        background: #2a2b36;
+        color: #eaeaeb;
     }
-
-  }
-  
-
-
-  @media (prefers-color-scheme: light) {
-   
-  }
+ 
+    .section-wrapper {
+        color: #bebebe!important;
+      }
+      .experience {
+          color: #bebebe!important;
+      }
+}
 
 
