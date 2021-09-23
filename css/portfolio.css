@@ -220,6 +220,10 @@ section {
   .card-breakpoint {
     margin-left: 1rem !important;
   }
+
+  .link {
+    top: 50%!important;
+  }
 }
 .card-style {
   border-radius: 20px;
@@ -227,7 +231,10 @@ section {
 
 .rounded-start {
   border-radius: 20px !important;
+
+
 }
+
 
 @media (min-width: 576px) {
   .col-sm-6 {
