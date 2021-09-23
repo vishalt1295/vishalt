@@ -10,8 +10,18 @@ section {
 }
 
 .card {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+ /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);*/
+   /* box-shadow:
+  0px 2.8px 2.2px rgba(0, 0, 0, 0.04),
+  0px 6.7px 5.3px rgba(0, 0, 0, 0.029),
+  0px 12.5px 10px rgba(0, 0, 0, 0.024),
+  0px 22.3px 17.9px rgba(0, 0, 0, 0.02),
+  0px 41.8px 33.4px rgba(0, 0, 0, 0.016),
+  0px 100px 80px rgba(0, 0, 0, 0.011); */
+
+  box-shadow: var(--shadowDark16dp);
+
 }
 
 .about_me {
@@ -231,8 +241,6 @@ section {
 
 .rounded-start {
   border-radius: 20px !important;
-
-
 }
 
 
@@ -309,7 +317,6 @@ img {
   font-family: 'Pacifico', cursive;
 }
 
-
 .lead {
   margin-left: 2.25rem!important;
 }
@@ -340,14 +347,15 @@ img {
 .text {
   color: white;
   position: absolute;
+  font-size: 2rem!important;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  font-size: calc(1.375rem + 1.5vw);
+  /*font-family: 'Pacifico', cursive;*/
+  /*font-size: calc(1.375rem + 1.5vw);*/
   font-weight: 300;
 }
 
@@ -367,8 +375,9 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #505050a8;
-  backdrop-filter: blur(5px);
+  /*background-color: #505050a8;*/
+  background: #22232bb0;
+  backdrop-filter: blur(10px);
   border-radius: 20px;
 }
 
