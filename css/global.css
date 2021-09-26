@@ -267,6 +267,11 @@ body {
   .section-wrapper {
     color: #bebebe !important;
   }
+
+  .resume-wrapper {
+    color: #bebebe !important;
+  }
+
   .experience {
     color: #bebebe !important;
   }
@@ -277,6 +282,9 @@ body {
 
   .motiontech-font {
       color: #ffffff;
+  }
+  .project-font {
+    color: #ffffff;
   }
 }
 

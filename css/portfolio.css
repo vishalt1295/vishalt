@@ -347,3 +347,33 @@ img {
 .card:hover .overlay {
   opacity: 1;
 }
+
+
+
+.resume-wrapper {
+  text-align: left;
+  /*color: #9099a0; */
+  color: #6f6f6f;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+@media (max-width: 450px) {
+  .resume-wrapper {
+    width: 100%;
+  }
+}
+.resume-wrapper:nth-child(3) {
+  padding-right: 8%;
+}
+.resume-wrapper h3.section-title {
+  color: #66cc99;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.resume-wrapper .skill {
+  margin-bottom: 10px;
+  position: relative;
+}
