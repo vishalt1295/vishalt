@@ -1,4 +1,4 @@
-@import url(Global.css);
+@import url(global.css);
 
 section {
   position: relative;
@@ -217,16 +217,16 @@ section {
 }
 
 .visit-button {
-  margin-top: 9rem;
+  margin-top: 4rem;
 }
 
 .play_button {
   margin-top: 16rem;
 }
 
-.daisy_play_button {
+/* .daisy_play_button {
   margin-top: 4.5rem;
-}
+} */
 
 img {
   animation: fadein 2s;
